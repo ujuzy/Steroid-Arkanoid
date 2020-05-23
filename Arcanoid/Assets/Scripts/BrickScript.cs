@@ -9,10 +9,11 @@ public class BrickScript : MonoBehaviour
     public int hitsToDestroy;
 
     private int mHitsDone;
-
+    
     private void Start()
     {
         mHitsDone = 0;
+       
     }
 
     private void FixedUpdate()
