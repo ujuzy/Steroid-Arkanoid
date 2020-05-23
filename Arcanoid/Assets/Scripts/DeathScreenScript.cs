@@ -9,7 +9,7 @@ public class DeathScreenScript : MonoBehaviour
     private AudioSource mDeathTheme;
 
     public static bool isDead;
-    
+
     void Start()
     {
         gameObject.SetActive(false);
