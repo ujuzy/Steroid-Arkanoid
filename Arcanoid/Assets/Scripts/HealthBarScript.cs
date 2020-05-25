@@ -6,9 +6,14 @@ using UnityEngine.UI;
 
 public class HealthBarScript : MonoBehaviour
 {
-    public static int NumberOfHearts = 3;
+    public static int NumberOfHearts;
 
     public Image[] hearts;
+
+    private void Start()
+    {
+        NumberOfHearts = 3;
+    }
 
     private void FixedUpdate()
     {
